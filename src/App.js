@@ -1,16 +1,11 @@
 import React from "react";
-import Navbar from "./Components/NavBar";
-import Footer from './Components/Footer';
-import Body from "./Components/Body";
-import ConditionalRender from "./Components/ConditionalRender";
+import BasicHooks from "./Components/BasicHooks";
+import ListsAndKeys from "./Components/ListsAndKeys";
 
 function App() {
   return (
     <>
-      {/* <Navbar />
-      <Body />
-      <Footer /> */}
-      <ConditionalRender isLoggedIn={false} />
+      <BasicHooks />
     </>
   );
 }
